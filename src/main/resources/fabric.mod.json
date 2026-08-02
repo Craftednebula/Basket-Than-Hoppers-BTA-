@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "baskethoppers",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "Crafted's basket hoppers",
+	"description": "makes baskets work like hoppers.",
 	"authors": [
-		"Turnip Labs"
+		"Craftednebula"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,11 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+			"craftednebula.baskethoppers.BasketHoppers"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"baskethoppers.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
