@@ -44,7 +44,7 @@ public abstract class TileEntityBasketMixin extends TileEntity {
 	private int baskethoppers$transferCooldown = 0;
 
 	@Unique
-	private static final int BATCH_SIZE = 8;
+	private static final int BATCH_SIZE = 32;
 
 	@Unique
 	private int baskethoppers$targetIndex = 0;
